@@ -1,0 +1,92 @@
+body{
+    background-color:#214b4d ;
+}
+
+.allPag{
+    background-color:  #03E8B1;
+    position: relative;
+    width: 20%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 10px rgb(116, 206, 206);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.functionlist h1{
+    font-size: 30px;
+    padding: 20px 10px 5px 20px;
+}
+
+.functionlist h2{
+    font-size: 30px;
+    padding: 20px 5px 20px 20px;
+}
+
+.functionlist h3{
+    font-size: 30px;
+    padding: 20px 5px 20px 20px;
+}
+.buttons{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+}
+
+.buttonsFunction{
+    display: inline;
+    background-color: #03E8B1;
+    margin: 15px 0px 0px 30px;
+    height: 90px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px; 
+}
+
+.buttonsFunction:hover{
+    transform: scale(1.1);
+    background-color: #06bd92;
+    transition: 400ms;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.savingspag{
+    background-color: aliceblue;
+    margin: 80px 15px 15px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.savingsAccount h1{
+    font-size: 25px;
+    padding: 20px 10px 5px;
+}
+
+.savingsAccount h2{
+    font-size: 30px;
+    padding: 50px 5px 20px 20px;
+}
+
+.buttonsFunctionAccount{
+    display: inline;
+    background-color: #03E8B1;
+    margin: 20px 0px 0px 20px;
+    height: 90px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px; 
+}
+
+.buttonsFunctionAccount:hover{
+    transform: scale(1.1);
+    background-color: #06bd92;
+    transition: 400ms;
+}

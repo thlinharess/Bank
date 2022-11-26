@@ -1,0 +1,66 @@
+body{
+    background-color:#214b4d ;
+}
+
+.allPage{
+    background-color:  #03E8B1;
+    position: relative;
+    width: 20%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 10px rgb(116, 206, 206);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.background{
+    background-color: aliceblue;
+    margin: 100px 15px 15px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.allPage h1 {
+    font-size: 35px;
+    text-align:center;
+    padding: 80px 0px;
+}
+
+input {
+    height: 50px;
+    width: 60%;
+    margin: 0px 0px 0px 75px;
+    background-color: #6cccb7;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input:hover {
+    background-color:#03E8B1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.buttons {
+    display: inline;
+    background-color: #03E8B1;
+    margin: 100px 0px 0px 30px;
+    height: 90px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.buttons:hover{
+    transform: scale(1.1);
+    background-color: #06bd92;
+    transition: 400ms;
+}
